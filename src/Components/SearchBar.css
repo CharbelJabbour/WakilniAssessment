@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+ul li {
+    font-size: 20px;
+}
+
+.search-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 220px;
+    height: 30px;
+  }
+
+.dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.dropdown:empty {
+    border: none;
+}
+
+.dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}
+
+.dropdown-row:hover {
+    background-color: #D3D3D3;
+}
+
+.search-inner {
+    display: flex;
+}
+
+.showAll {
+    font-size: 18px;
+    color: #3cc2f1;
+}
+
+.showAll:hover {
+    color: #2596be;
+    cursor: pointer;
+}

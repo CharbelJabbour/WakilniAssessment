@@ -1,0 +1,125 @@
+.tableProducts {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.productId {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+.productName {
+    font-size: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.tdImage {
+    width: 10px;
+    height: 0px;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productDetails .productId {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.productDetails .productName {
+    font-weight: bold;
+}
+
+.productDescription {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.productCount {
+    text-align: left;
+}
+
+.tableTd {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tableTr:hover {
+    background-color: #D3D3D3;
+}
+
+.btns{
+    text-align: right;
+}
+
+.checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  .checkbox input:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkbox:hover input ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+
